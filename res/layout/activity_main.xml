@@ -1,0 +1,80 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kasi_food_hub2.MainActivity"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/lbl_kasi_food_hub" 
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/lbl_kasi_logo"
+        android:textStyle="italic"
+        
+        />
+
+    <ImageView
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:layout_gravity="center"
+        android:src="@drawable/kasi_logo" />
+    
+     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/lbl_login"
+        />
+    
+    <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/hint_username"
+        android:inputType="text"
+        />
+    
+     <EditText 
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textPassword"
+        android:hint="@string/hint_password"
+        />
+     
+     <Button 
+         android:id="@+id/btnLogin"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/btn_login"
+         />
+     
+     <Button 
+         android:id="@+id/btnCreateAccount"
+          android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/btn_create_account"
+         />
+     
+     <TextView 
+         android:id="@+id/lbl_forgot_password"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/lbl_forgot_passwpord"
+         />
+
+</LinearLayout>
+</ScrollView>
